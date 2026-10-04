@@ -14,6 +14,14 @@
 
 ---
 
+## 📂 הנתונים (Dataset)
+
+בשל הגבלות נפח הקבצים ב-GitHub (הקובץ המלא מכיל 3 מיליון שורות ושוקל כ-450MB), ה-Dataset המלא אינו מאוחסן ישירות בריפוזיטורי. 
+
+ניתן להוריד את ה-Dataset המלא מ-[Kaggle - Flight Delays Dataset](https://www.kaggle.com/datasets) ולהציבו בתיקיית `data/` תחת השם `flights_sample_3m.csv`.
+
+---
+
 ## 💼 הבעיה העסקית והתפעולית
 
 עיכובי טיסות עולים לחברות תעופה ולשדות תעופה מיליארדי דולרים מדי שנה בשל הפסדי שעות צוות, צריכת דלק מוגברת, קנסות תעופתיים ושחיקה בשביעות רצון הנוסעים. ניתוח מוקדם של עיכובים מציע:
@@ -61,10 +69,7 @@
 
 ```text
 ├── data/
-│   └── flights_sample_3m.csv       # Dataset הטיסות
+│   └── flights_sample_3m.csv       # Dataset הטיסות (הורדה חיצונית)
 ├── 01_eda_and_cleaning.ipynb       # מחברת הניתוח המלאה (Python & SQL)
 ├── README.md                       # תיעוד הפרויקט
 └── requirements.txt                # תלויות הפרויקט
-## 📂 הנתונים (Dataset)
-בשל הגבלות נפח הקבצים ב-GitHub (הקובץ המלא מכיל 3 מיליון שורות ושוקל כ-450MB), ה-Dataset המלא אינו מאוחסן ישירות בריפו. 
-ניתן להוריד את ה-Dataset המלא ישירות מ-[Kaggle - Flight Delays Dataset](https://www.kaggle.com/datasets) / [Google Drive Link] ולהציבו בתיקיית `data/` תחת השם `flights_sample_3m.csv`.
