@@ -65,3 +65,6 @@
 ├── 01_eda_and_cleaning.ipynb       # מחברת הניתוח המלאה (Python & SQL)
 ├── README.md                       # תיעוד הפרויקט
 └── requirements.txt                # תלויות הפרויקט
+## 📂 הנתונים (Dataset)
+בשל הגבלות נפח הקבצים ב-GitHub (הקובץ המלא מכיל 3 מיליון שורות ושוקל כ-450MB), ה-Dataset המלא אינו מאוחסן ישירות בריפו. 
+ניתן להוריד את ה-Dataset המלא ישירות מ-[Kaggle - Flight Delays Dataset](https://www.kaggle.com/datasets) / [Google Drive Link] ולהציבו בתיקיית `data/` תחת השם `flights_sample_3m.csv`.
